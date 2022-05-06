@@ -1,0 +1,34 @@
+{
+  "name": "shasha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run train && node server.js",
+    "seed": "node seeds/index.js",
+    "train": "node bot/trainBot.js",
+    "chat": "node bot/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnnyboy7781/shasha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johnnyboy7781/shasha/issues"
+  },
+  "homepage": "https://github.com/Johnnyboy7781/shasha#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "node-nlp": "^4.23.4",
+    "sequelize": "^6.18.0"
+  }
+}

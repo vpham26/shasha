@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS shasha_db;
+
+CREATE DATABASE shasha_db;
